@@ -30,7 +30,7 @@ def req_mostrar_palavra(palavra):
             print("\n")
         while True:
             salvar_palavra = input("Deseja salvar essa palavra em seu notebook (s/n)?").capitalize()
-            # Usei o match/case para tornar o codigo mais  
+            # Usei o match/case para tornar o codigo mais enxuto 
             match salvar_palavra:
                 case "S":
                     salvar_palavra_notebook(palavra.capitalize())
