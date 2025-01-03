@@ -11,9 +11,9 @@ freeDictionaryAPI = "https://api.dictionaryapi.dev/api/v2/entries/en/" # Link us
 # Requisitar e mostrar definição de palavra:
 def req_mostrar_palavra(palavra):
     # Requisitando dados da API
-    # A função get retorna um objeto (não vimos isso em aula então mao emtrarei em detalhes)
+    # A função get retorna um objeto (não vimos isso em aula então nao entrarei em detalhes)
     # Ao chamar o metodo text, obtemos um string com todo o texto acessado atraves da URL
-    # Usei a função eval para transormar esse string em uma espressão que o python entenda (uma lista, alias)
+    # Usei a função eval para transformar esse string em uma expressão que o python entenda (uma lista, alias)
     list_resposta = eval(get(freeDictionaryAPI+palavra).text) 
     if type(list_resposta) != list:
         # Caso o link retorne qualquer coisa que não seja uma lista, a palavra não foi encontrada
