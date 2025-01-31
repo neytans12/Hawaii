@@ -1,0 +1,49 @@
+,pergunta,alternativa_A,alternativa_B,alternativa_C,alternativa_D,categoria,correta
+0,Qual é o significado de 'dog' em português?,Gato,Cachorro,Pássaro,Peixe,Vocabulario,B
+1,Qual palavra é um sinônimo de 'happy'?,Sad,Angry,Tired,Joyful,Vocabulario,D
+2,O que significa 'blue' em português?,Vermelho,Amarelo,Verde,Azul,Vocabulario,D   
+3,Qual dessas palavras é um substantivo?,Run,Beautiful,Table,Quickly,Vocabulario,C
+4,Qual palavra melhor completa a frase: 'She ____ to school every day.'?,Go,Going,Goes,Gone,Vocabulario,C
+5,O que significa 'chair' em português?,Cadeira,Mesa,Sofá,Janela,Vocabulario,A
+6,Qual é o antônimo de 'fast'?,Slow,Quick,Speed,Move,Vocabulario,A
+7,O que significa 'book' em português?,Caderno,Revista,Livro,Papel,Vocabulario,C
+8,Qual das palavras abaixo é um adjetivo?,Jump,Beautiful,Table,Run,Vocabulario,B
+9,Qual é o significado de 'big' em português?,Pequeno,Grande,Médio,Largo,Vocabulario,B
+10,Qual dessas palavras é um verbo?,House,Car,Blue,Sing,Vocabulario,D
+11,Qual é o plural de 'mouse' em inglês?,Mouses,Mices,Mice,Mousees,Vocabulario,C
+12,Qual palavra completa a frase: 'I have a ____ idea.'?,Good,Well,Nicely,Better,Vocabulario,A
+13,Qual dessas palavras é um pronome pessoal?,He,House,Green,Run,Vocabulario,A
+14,Qual dessas palavras é um advérbio?,Quickly,Quick,Quicker,Fast,Vocabulario,A
+15,Qual é o significado de 'cold' em português?,Quente,Frio,Gelado,Morno,Vocabulario,B
+16,Qual é a forma correta para completar a frase: 'She ____ to school every day.'?,go,goes,going,gone,Gramatica e Significado,B
+17,Qual das frases abaixo está gramaticalmente correta?,She don’t like apples.,She didn't like apples.,She not like apples.,She doesn’t like apples.,Gramatica e Significado,D
+18,Qual palavra é um pronome possessivo?,He,His,Him,Her,Gramatica e Significado,B
+19,"Qual das opções completa corretamente a frase: 'If I ____ you, I would apologize.'?",was,were,am,is,Gramatica e Significado,B
+20,Qual dessas palavras é um verbo modal?,Can,Is,Has,Will be,Gramatica e Significado,A
+21,Qual das frases está no tempo verbal Present Perfect?,She has visited Paris.,She visits Paris.,She will visit Paris.,She is visiting Paris.,Gramatica e Significado,A
+22,Qual a função de 'quickly' na frase: 'She runs quickly.'?,Verbo,Substantivo,Adjetivo,Advérbio,Gramatica e Significado,D
+23,"Qual opção completa corretamente a frase: 'By the time we arrived, they ____ already left.'?",have,had,has,were,Gramatica e Significado,B
+24,Qual é a forma correta do passado simples do verbo 'to eat'?,Eaten,Ate,Eating,Eats,Gramatica e Significado,B
+25,Qual das frases está na voz passiva?,She wrote the book.,The book was written by her.,She writes a book.,She is writing a book.,Gramatica e Significado,B
+26,Qual é o erro na frase: 'She didn’t went to school yesterday.'?,O verbo 'went' está incorreto; deveria ser 'go'.,O verbo 'went' está incorreto; deveria ser 'gone'.,O verbo 'went' está incorreto; deveria ser 'goes'.,O verbo 'went' está incorreto; deveria ser 'go'.,Gramatica e Significado,A
+27,Qual das frases está na forma interrogativa?,She is reading a book.,She read a book.,Is she reading a book?,She was reading a book.,Gramatica e Significado,C
+28,Qual das frases está correta no futuro simples?,She will go to the party.,She goes to the party tomorrow.,She went to the party next week.,She go to the party next week.,Gramatica e Significado,A
+29,Qual das frases usa a estrutura correta do condicional tipo 1?,"If it rains, we would stay home.","If it rains, we will stay home.","If it rained, we will stay home.","If it rain, we will stay home.",Gramatica e Significado,B
+30,Qual palavra completa corretamente a frase: 'She is interested ____ learning new languages.'?,on,at,in,with,Gramatica e Significado,C
+31,Qual das frases está na forma negativa do Present Simple?,She don’t like coffee.,She doesn’t like coffee.,She didn’t like coffee.,She not like coffee.,Gramatica e Significado,B
+32,"Qual é a ideia principal do seguinte trecho? 'Many people believe that reading books is the best way to gain knowledge. However, others argue that practical experience is more valuable than theoretical learning.'",A importância da prática sobre a teoria.,A leitura é a única forma de aprender.,A experiência prática não é útil.,Livros são inúteis para adquirir conhecimento.,Compreensão de texto,A
+33,Qual título seria mais apropriado para um texto que discute os benefícios da tecnologia na educação?,Os desafios da agricultura moderna,O impacto da tecnologia na aprendizagem,A evolução dos esportes olímpicos,Como cozinhar massas perfeitamente,Compreensão de texto,B
+34,"Após ler o seguinte parágrafo, qual alternativa representa a conclusão mais lógica? 'John trained hard for months, waking up early every day and following a strict diet. On the day of the competition, he performed exceptionally well and won first place.'",John se arrependeu de ter treinado tanto.,John perdeu a competição.,O treinamento de John valeu a pena.,John decidiu parar de competir.,Compreensão de texto,C
+35,"No trecho: 'Despite the rain, they decided to go for a walk.' O que a palavra 'Despite' indica?",Causa,Condição,Contraste,Tempo,Compreensão de texto,C
+36,"Qual a melhor opção para substituir a expressão 'very tired' no trecho: 'After the marathon, he was very tired'?",Exhausted,Sleepy,Energetic,Hungry,Compreensão de texto,A
+37,"Qual das frases melhor resume a seguinte passagem? 'The internet has changed the way people communicate, making it easier to stay in touch, share ideas, and access information.'",A internet tornou a comunicação mais difícil.,A internet facilitou a comunicação e o acesso à informação.,A internet impede as pessoas de se comunicarem corretamente.,A internet é uma ferramenta inútil para a comunicação.,Compreensão de texto,B
+38,"Qual alternativa indica o tom do seguinte trecho? 'The author strongly criticizes the government's decision to cut education funding, arguing that it will have negative consequences for future generations.'",Neutro,Crítico,Otimista,Humorístico,Compreensão de texto,B
+39,"O que pode ser inferido a partir da seguinte frase? 'By the time we arrived at the theater, the movie had already started.'",Eles chegaram antes do filme começar.,O filme já estava em andamento quando chegaram.,Eles perderam apenas o final do filme.,O filme ainda não havia começado quando chegaram.,Compreensão de texto,B
+40,Qual das palavras a seguir melhor descreve o sentimento expresso na frase: 'She was thrilled when she received the good news'?,Angry,Excited,Confused,Sad,Compreensão de texto,B
+41,Qual das alternativas abaixo melhor resume a ideia do trecho? 'Eating a balanced diet and exercising regularly are essential for maintaining good health.',Uma dieta balanceada e exercícios são importantes para a saúde.,Evitar exercícios pode melhorar a saúde.,Comer qualquer tipo de comida é suficiente para ser saudável.,Exercícios físicos são prejudiciais à saúde.,Compreensão de texto,A
+42,"Qual é a mensagem principal do seguinte trecho? 'The rapid advancement of technology has led to many changes in the workplace, making tasks more efficient but also reducing the number of available jobs.'",A tecnologia não afeta o mercado de trabalho.,A tecnologia traz mais empregos para todos.,"A tecnologia melhora a eficiência, mas reduz empregos.",A tecnologia faz as tarefas mais difíceis e lentas.,Compreensão de texto,C
+43,Qual título seria mais apropriado para um texto que discute o impacto do aquecimento global na biodiversidade?,Mudanças no clima e suas consequências ecológicas,A ascensão das novas tecnologias,O crescimento das populações urbanas,A preservação dos ecossistemas marinhos,Compreensão de texto,A
+44,"Após ler o seguinte parágrafo, qual alternativa representa a conclusão mais lógica? 'Maria estudou intensamente para o exame, revisando suas anotações e resolvendo exercícios. Quando chegou o dia da prova, ela se sentiu confiante e preparada.'",Maria ficou nervosa durante o exame.,Maria não estudou o suficiente para o exame.,O estudo de Maria a ajudou a se sentir pronta para o exame.,Maria não conseguiu completar a prova.,Compreensão de texto,C
+45,"No trecho: 'Although he was tired, he continued to work late into the night.' O que a palavra 'Although' indica?",Causa,Condição,Contraste,Tempo,Compreensão de texto,C
+46,"Qual a melhor opção para substituir a expressão 'really hungry' no trecho: 'After the long hike, they were really hungry'?",Ravenous,Full,Energetic,Thirsty,Compreensão de texto,A
+47,"Qual das frases melhor resume a seguinte passagem? 'Social media platforms have become a powerful tool for individuals and businesses alike, enabling faster communication and access to a global audience.'",As mídias sociais dificultam a comunicação.,As mídias sociais permitem uma comunicação mais rápida e global.,As mídias sociais são ineficazes para negócios.,As mídias sociais não têm impacto no comércio.,Compreensão de texto,B
