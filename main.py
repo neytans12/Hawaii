@@ -2,6 +2,8 @@
 from requests import get
 import os
 import pandas as pd
+from datetime import date
+
 
 if not os.path.exists("dados"):
     os.mkdir("dados")
@@ -75,19 +77,35 @@ def acessar_notebook():
     else:
         print("Seu notebook está vazio.")
 
+def delete_notebook():
+    caminho = os.path.join("dados", "notebook.csv")
+    if os.path.exists(caminho):
+        os.remove(caminho)
+        print("Feito")
+    else:
+        print("Seu notebook não existe existe...")
+    
+
+def acessar_quiz_diario(data):
+    caminhho_logs_quiz = os.path.join("dados",  )
+
 
 print("Bem-vindo ao Hawaii.")
 
 while True:
-    user_act = int(input("Escolha uma das alternativas:\n1- Pesquisar uma palavra;\n2- Mostrar notebook;\n4- Sair\n--> "))
+    user_act = int(input("Escolha uma das alternativas:\n1- Pesquisar uma palavra;\n2- Mostrar notebook;\n3- Limpar notebook;\n5- Sair\n--> "))
     match user_act:
         case 1:
             palavra = input("Digite a palavra: ")
 
             req_mostrar_palavra(palavra)
         case 2:
-            # Em desenvolvimento, guerreiro...
             acessar_notebook()
+        case 3:
+            delete_notebook()
         case 4:
+            hoje = date.today().strftime("%b-%d-%Y")
+            acessar_quiz_diario(hoje)
+        case 5:
             print("Até a proxima :)")
             break
