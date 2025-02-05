@@ -86,6 +86,7 @@ while True:
 
             req_mostrar_palavra(palavra)
         case 2:
+            # Em desenvolvimento, guerreiro...
             acessar_notebook()
         case 4:
             print("Até a proxima :)")
