@@ -90,14 +90,32 @@ def acessar_quiz_diario(data):
     caminhho_logs_quiz = os.path.join("dados",  )
 
 
-print("Bem-vindo ao Hawaii.")
+
+logo = '''
+██╗  ██╗ █████╗ ██╗    ██╗ █████╗ ██╗██╗
+██║  ██║██╔══██╗██║    ██║██╔══██╗██║██║
+███████║███████║██║ █╗ ██║███████║██║██║
+██╔══██║██╔══██║██║███╗██║██╔══██║██║██║
+██║  ██║██║  ██║╚███╔███╔╝██║  ██║██║██║
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝╚═╝
+'''
+
+menu = '''
+Escolha uma alternativa:
+1- Pesquisar uma palavra no dicionario;
+2- Acessar Notebook;
+3- Limpar Notebook;
+4- Realizar quiz diario;
+5- Sair.
+'''
+
+print(logo)
 
 while True:
-    user_act = int(input("Escolha uma das alternativas:\n1- Pesquisar uma palavra;\n2- Mostrar notebook;\n3- Limpar notebook;\n5- Sair\n--> "))
+    user_act = int(input(menu))
     match user_act:
         case 1:
             palavra = input("Digite a palavra: ")
-
             req_mostrar_palavra(palavra)
         case 2:
             acessar_notebook()
