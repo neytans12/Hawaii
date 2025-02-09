@@ -33,6 +33,56 @@ lista_perguntas = [
         "correta": "D   "
     },
     {
+        "pergunta": "Qual é a tradução correta da palavra "overwhelming" para o português?"
+        "alternativas": {
+            "A": "Tranquilo",
+            "B": " Impressionante",
+            "C": "Irrelevante",
+            "D": "Insignificante",
+         }
+         "correta": "B"
+    },
+    {
+        "pergunta": "Qual das seguintes palavras pode substituir "happy" sem mudar o significado da frase?"
+        "alternativas": {
+            "A": "Miserable",
+            "B": "Cheerful",
+            "C": "Furious",
+            "D": "Anxious",
+         }
+         "correta": "B"
+    },
+    { 
+        "pergunta": "Qual palavras completa corretamente a frase "She was feeling very ___ after working for ten hours straight"?" 
+        "alternativas": {
+            "A": "Exhausted",
+            "B": "Delighted",
+            "C": "Confused",
+            "D": "Excited",
+        }
+        "correta": "A"
+    },
+    { 
+        "pergunta": "Qual é o antônimo da palavra generous?"
+        "alternativas": {
+            "A": "Selfish",
+            "B": "Kind",
+            "C": Friendly",
+            "D": "Thoughtful",
+        }
+        "correta": "A"
+    },
+    { 
+        "pergunta": "O que significa a expressão break the ice?"
+         "alternativas": {
+             "A": "Iniciar uma conversa para aliviar o clima tenso",
+             "B": "Terminar um relacionamento",
+             "C": "Destruir algo frágil",
+             "D": "Ficar nervoso"
+       }
+       "correta": "A"
+    },
+    {
         "pergunta": "Qual dessas palavras é um substantivo?",
         "alternativas": {
             "A": "Run",
@@ -481,7 +531,113 @@ lista_perguntas = [
             "D": "As mídias sociais não têm impacto no comércio.",
         },
         "correta": "B"
+    },
+    { 
+        "pergunta": "Choose the correct verb tense to complete the sentence: By the time we arrived, they ___ dinner"
+        "alternativas": {
+            "A": "Eat",
+            "B": "Were eating",
+            "C": "Had eaten",
+            "D": "Will eat",
+        } 
+        "correta": "C"
+    },
+    {
+       "pergunta": "Choose the correct verb tense to complete the sentence: While she ____ a book, her brother was watching TV"
+       "alternativas": {
+           "A": "Read",
+           "B": "Reads",
+           "C": "Was reading",
+           "D": "Was read",
+       }
+       "correta": "C"
+   },
+   {
+      "pergunta": "Identifique o verbo na frase: The dog barked loudly at the stranger"
+      "alternativas": {
+          "A": "The",
+          "B": "Dog" 
+          "C": "Barked",
+          "D": "Loudly",
+      }
+      "correta": "C"
+  },
+  { 
+      "pergunta": "Qual palavra é um advérbio na frase: She quickly finished her homework and went outside"
+       "alternativas": {
+           "A": "She",
+           "B": "Quickly",
+           "C": "Finished",
+           "D": "Homework",
+      
+      }
+      "correta": "C"
+  },
+  { 
+      "pergunta": "Escolha a preposição correta para completar a frase: She is very good ___ playing piano"
+       "alternativas": {
+           "A": "In",
+           "B": "At",
+           "C": "On",
+           "D": "With",
+     
+     }
+     "correta": "B"
+ },
+ {    
+     "pergunta": "A partir do texto a seguir, o que Sarah estava fazendo no pôr do sol?" 'The sun was setting, and the sky turned a deep shade of orange. Sarah walked along the beach, enjoying the peaceful moment. She felt grateful for the quiet and the beauty of nature around her.'
+     "alternativas": {
+         "A": "Taking a walk in the park",
+         "B": "Sitting in her house",
+         "C": "Walking along the beach",
+         "D": "Watching the sunset from her window",
+
     }
+    "correta": "C"
+ },
+ {
+     "pergunta": "A partir do texto a seguir, como James se sentiu ao encontrar a moeda?" 'James couldn't believe his luck when he found an old coin in the garden. He had been digging for hours, and suddenly, something shiny appeared in the soil.'
+     "alternativas": {
+         "A": "Angry",
+         "B": "Surprised",
+         "C": "Sad",
+         "D": "Nervous",
+
+     }
+     "correta": "B"
+ },
+ {
+    "pergunta": "A partir do texto a seguir, o que aconteceu na livraria?"'The library was quiet except for the soft sound of pages turning. Students were scattered around, reading or studying, while the librarian moved silently between the rows of books.'
+    "alternativas": {
+        "A": "There was a loud noise",
+        "B": "People were reading or studying",
+        "C": "The librarian was talking to everyone",
+        "D": "The students were playing games",
+
+    }
+    "correta": "B"
+ },
+ { 
+    "pergunta": "A partir do texto a seguir, qual a atmosfera mais provável do restaurante? 'The restaurant was packed with people, and the air smelled of delicious food. The waiter greeted us with a warm smile and led us to our table by the window.'
+    "alternativa": {
+       "A": "Quiet and empty",
+       "B": "Packed and lively",
+       "C": "Dark and cold",
+       "D": "Messy and disorganized",
+  
+   }
+   "correta": "B"
+},
+{ 
+    "pergunta": "A partir do texto a seguir, qual a atitude da equipe em relação à chuva?" 'Despite the heavy rain, the team decided to continue playing. They were determined to finish the match, even though the field was becoming slippery.'
+    "alternativas": {
+        "A": "They want to stop playing",
+        "B": "They are determined to keep playing.",
+        "C": "They are afraid of getting wet.",
+        "D": "They think the rain is not important.",
+    }
+    "correta": "B"
+},
 ]
 
 for index, dic in enumerate(lista_perguntas[0:17]):
