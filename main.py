@@ -1,11 +1,10 @@
 # Importando bibliotecas/funcões de bibliotecas
 from requests import get
 import os
-import pandas as pd
 import random
 from datetime import date
 import menu
-
+import pandas as pd
 
 if not os.path.exists("dados"):
     os.mkdir("dados")
@@ -89,20 +88,34 @@ def gerar_quiz_diario(caminho_perguntas): # GEra as funções que serão usadas 
     # Carregar o CSV
     df = pd.read_csv(caminho_perguntas)
     df = df.drop(columns=['Unnamed: 0'])
-
-    # Selecionar 3 perguntas aleatórias
-    perguntas_selecionadas = df.sample(n=3, random_state=None)
+    gramatica = df[df["categoria"] == "Gramatica e Significado"].sample(n=1, random_state=None) # Selecionar 3 perguntas aleatórias
+    vocab = df[df["categoria"] == "Vocabulário"].sample(n=1, random_state=None)
+    compr = df[df["categoria"] == "Compreensão de texto"].sample(n=1, random_state=None)
 
     # Converter as perguntas selecionadas em uma lista de dicionários
-    quiz = perguntas_selecionadas.to_dict(orient='records')
+    perguntas_selec = []
 
+    for i in [gramatica, vocab, compr]:
+        dict_pergunta = {"Pergunta": i["pergunta"].values[0],
+                         "A": i["A"].values[0],
+                         "B": i["B"].values[0],
+                         "C": i["C"].values[0],
+                         "D": i["D"].values[0],
+                         "Categia": i["categoria"].values[0],
+                         "Correta": i["correta"].values[0]}
+        perguntas_selec.append(dict_pergunta)
+    
     # Remover as perguntas selecionadas do DataFrame original
-    df = df.drop(perguntas_selecionadas.index)
+    df = df.drop(gramatica.index)
+    df = df.drop(compr.index)
+    df = df.drop(vocab.index)
     df = df.reset_index(drop=True)
     # Salvar o DataFrame atualizado de volta ao CSV
     df.to_csv(caminho_perguntas)
 
-    print(quiz)
+    print(perguntas_selec)
+    
+
 
 def play_quiz(perguntas_select):
 
