@@ -1,30 +1,3 @@
-# lista = []
-
-# for i in range(15):
-#     pergunta = input("Pergunta --> ")
-#     alternativa_a = input("alternativa_a --> ")
-#     alternativa_b = input("alternativa_b --> ")
-#     alternativa_c = input("alternativa_c --> ")
-#     alternativa_d = input("alternativa_d --> ")
-#     correta = input("Letra correta --> ")
-    
-#     dict_pergunta = {
-#         "pergunta": pergunta ,
-#         "alternativas": {
-#             "A": alternativa_a,
-#             "B": alternativa_b,
-#             "C":alternativa_c,
-#             "D": alternativa_d
-#         },
-#         "categoria": 'Gramática e Significado',
-#         "correta": correta
-#     }
-#     lista.append(dict_pergunta)
-
-# print(list)
-
-# with open('perguntas_list.txt', 'w') as file:
-#     file.writelines(str(lista))
 
 import pandas as pd
     
@@ -202,10 +175,10 @@ Pergunta:
 What can be inferred about Alice's feelings?
 ''',
         "alternativas": {
-            "A": 'a) She regrets accepting the job.',
-            "B": 'b) She was well-prepared but still found the job challenging.',
-            "C": 'c) She was not interested in the job.',
-            "D": 'd) She found the job easier than expected.'
+            "A": 'She regrets accepting the job.',
+            "B": 'She was well-prepared but still found the job challenging.',
+            "C": 'She was not interested in the job.',
+            "D": 'She found the job easier than expected.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -218,10 +191,10 @@ Pergunta:
 Why did Tom take his umbrella?
 ''',
         "alternativas": {
-            "A": 'a) Because it was already raining.',
-            "B": 'b) Because he thought it might rain.',
-            "C": 'c) Because he forgot it outside.',
-            "D": 'd) Because he was cold.'
+            "A": 'Because it was already raining.',
+            "B": 'Because he thought it might rain.',
+            "C": 'Because he forgot it outside.',
+            "D": 'Because he was cold.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -234,10 +207,10 @@ Pergunta:
 What does the passage suggest about Lena?
 ''',
         "alternativas": {
-            "A": 'a) She found playing the piano too easy.',
-            "B": 'b) She gave up after a few lessons.',
-            "C": 'c) She made progress and enjoys playing now.',
-            "D": 'd) She has played the piano for years.'
+            "A": 'She found playing the piano too easy.',
+            "B": 'She gave up after a few lessons.',
+            "C": 'She made progress and enjoys playing now.',
+            "D": 'She has played the piano for years.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'C'
@@ -250,10 +223,10 @@ Pergunta:
 What was the consequence of David forgetting to set his alarm?
 ''',
         "alternativas": {
-            "A": 'a) He arrived at work early.',
-            "B": 'b) He had a relaxing morning.',
-            "C": 'c) He was late for work.',
-            "D": 'd) He had to rush to get ready.'
+            "A": 'He arrived at work early.',
+            "B": 'He had a relaxing morning.',
+            "C": 'He was late for work.',
+            "D": 'He had to rush to get ready.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'D'
@@ -266,10 +239,10 @@ Pergunta:
 What does Maria enjoy most about mystery novels?
 ''',
         "alternativas": {
-            "A": 'a) The romance in the stories.',
-            "B": 'b) The challenge of solving the mystery.',
-            "C": 'c) The historical settings.',
-            "D": 'd) The length of the books.'
+            "A": 'The romance in the stories.',
+            "B": 'The challenge of solving the mystery.',
+            "C": 'The historical settings.',
+            "D": 'The length of the books.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -282,10 +255,10 @@ Pergunta:
 How did Mark feel after the race?
 ''',
         "alternativas": {
-            "A": 'a) Disappointed and sad.',
-            "B": 'b) Exhausted but satisfied.',
-            "C": 'c) Angry at his performance.',
-            "D": 'd) Uninterested in running again.'
+            "A": 'Disappointed and sad.',
+            "B": 'Exhausted but satisfied.',
+            "C": 'Angry at his performance.',
+            "D": 'Uninterested in running again.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -298,10 +271,10 @@ Pergunta:
 What is likely to happen to Lisa’s cake?
 ''',
         "alternativas": {
-            "A": 'a) It will taste bad.',
-            "B": 'b) It will be extra sweet.',
-            "C": 'c) It will be bigger than expected.',
-            "D": 'd) It will taste normal.'
+            "A": 'It will taste bad.',
+            "B": 'It will be extra sweet.',
+            "C": 'It will be bigger than expected.',
+            "D": 'It will taste normal.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'A'
@@ -314,10 +287,10 @@ Pergunta:
 Why did Ben get a flashlight?
 ''',
         "alternativas": {
-            "A": 'a) He wanted to find candles because the power went out.',
-            "B": 'b) He was scared of the dark.',
-            "C": 'c) He wanted to go outside.',
-            "D": 'd) He was looking for his phone.'
+            "A": 'He wanted to find candles because the power went out.',
+            "B": 'He was scared of the dark.',
+            "C": 'He wanted to go outside.',
+            "D": 'He was looking for his phone.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'A'
@@ -330,10 +303,10 @@ Pergunta:
 What problem did John face?
 ''',
         "alternativas": {
-            "A": 'a) He woke up too early.',
-            "B": 'b) He woke up late and risked missing his meeting.',
-            "C": 'c) He had too much time before his meeting.',
-            "D": 'd) He forgot about his meeting.'
+            "A": 'He woke up too early.',
+            "B": 'He woke up late and risked missing his meeting.',
+            "C": 'He had too much time before his meeting.',
+            "D": 'He forgot about his meeting.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -346,10 +319,10 @@ Pergunta:
 Why couldn’t Emma read comfortably?
 ''',
         "alternativas": {
-            "A": 'a) It started raining.',
-            "B": 'b) The park was too noisy.',
-            "C": 'c) The wind was too strong.',
-            "D": 'd) She forgot her book at home.'
+            "A": 'It started raining.',
+            "B": 'The park was too noisy.',
+            "C": 'The wind was too strong.',
+            "D": 'She forgot her book at home.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'C'
@@ -362,10 +335,10 @@ Pergunta:
 Why did Daniel stop at the café?
 ''',
         "alternativas": {
-            "A": 'a) He was meeting a friend.',
-            "B": 'b) He wanted to buy coffee.',
-            "C": 'c) He was looking for a new café.',
-            "D": 'd) He forgot something at home.'
+            "A": 'He was meeting a friend.',
+            "B": 'He wanted to buy coffee.',
+            "C": 'He was looking for a new café.',
+            "D": 'He forgot something at home.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -378,10 +351,10 @@ Pergunta:
 What was Sarah’s main concern?
 ''',
         "alternativas": {
-            "A": 'a) Finding a new phone.',
-            "B": 'b) Making a call before her phone turned off.',
-            "C": 'c) Watching videos on her phone.',
-            "D": 'd) Taking photos with her phone.'
+            "A": 'Finding a new phone.',
+            "B": 'Making a call before her phone turned off.',
+            "C": 'Watching videos on her phone.',
+            "D": 'Taking photos with her phone.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -394,10 +367,10 @@ Pergunta:
 What happened to Kevin?
 ''',
         "alternativas": {
-            "A": 'a) He arrived early at work.',
-            "B": 'b) His car stopped working.',
-            "C": 'c) He got a new car.',
-            "D": 'd) He walked to work.'
+            "A": 'He arrived early at work.',
+            "B": 'His car stopped working.',
+            "C": 'He got a new car.',
+            "D": 'He walked to work.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -410,10 +383,10 @@ Pergunta:
 Why couldn’t Lucy buy the items?
 ''',
         "alternativas": {
-            "A": 'a) The store was closed.',
-            "B": 'b) She forgot her wallet at home.',
-            "C": 'c) She didn’t find what she wanted.',
-            "D": 'd) She decided not to buy anything.'
+            "A": 'The store was closed.',
+            "B": 'She forgot her wallet at home.',
+            "C": 'She didn’t find what she wanted.',
+            "D": 'She decided not to buy anything.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'B'
@@ -426,10 +399,10 @@ Pergunta:
 Why didn’t James watch the soccer game?
 ''',
         "alternativas": {
-            "A": 'a) He was sick.',
-            "B": 'b) He lost his ticket.',
-            "C": 'c) The game was canceled due to bad weather.',
-            "D": 'd) He forgot about the match.'
+            "A": 'He was sick.',
+            "B": 'He lost his ticket.',
+            "C": 'The game was canceled due to bad weather.',
+            "D": 'He forgot about the match.'
         },
         "categoria": 'Compreensão de texto',
         "correta": 'C'
@@ -619,5 +592,4 @@ df = pd.DataFrame(perguntas_pandas)
 df.to_csv("perguntas.csv")
 
 print(len(lista_perguntas))
-
 
