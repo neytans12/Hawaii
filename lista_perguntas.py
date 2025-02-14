@@ -1,6 +1,6 @@
 
 import pandas as pd
-    
+import os
 
 lista_perguntas = [
    {
@@ -180,7 +180,7 @@ What can be inferred about Alice's feelings?
             "C": 'She was not interested in the job.',
             "D": 'She found the job easier than expected.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -196,7 +196,7 @@ Why did Tom take his umbrella?
             "C": 'Because he forgot it outside.',
             "D": 'Because he was cold.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -212,7 +212,7 @@ What does the passage suggest about Lena?
             "C": 'She made progress and enjoys playing now.',
             "D": 'She has played the piano for years.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'C'
     },
     {
@@ -228,7 +228,7 @@ What was the consequence of David forgetting to set his alarm?
             "C": 'He was late for work.',
             "D": 'He had to rush to get ready.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'D'
     },
     {
@@ -244,7 +244,7 @@ What does Maria enjoy most about mystery novels?
             "C": 'The historical settings.',
             "D": 'The length of the books.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -260,7 +260,7 @@ How did Mark feel after the race?
             "C": 'Angry at his performance.',
             "D": 'Uninterested in running again.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -276,7 +276,7 @@ What is likely to happen to Lisa’s cake?
             "C": 'It will be bigger than expected.',
             "D": 'It will taste normal.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'A'
     },
     {
@@ -292,7 +292,7 @@ Why did Ben get a flashlight?
             "C": 'He wanted to go outside.',
             "D": 'He was looking for his phone.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'A'
     },
     {
@@ -308,7 +308,7 @@ What problem did John face?
             "C": 'He had too much time before his meeting.',
             "D": 'He forgot about his meeting.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -324,7 +324,7 @@ Why couldn’t Emma read comfortably?
             "C": 'The wind was too strong.',
             "D": 'She forgot her book at home.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'C'
     },
     {
@@ -340,7 +340,7 @@ Why did Daniel stop at the café?
             "C": 'He was looking for a new café.',
             "D": 'He forgot something at home.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -356,7 +356,7 @@ What was Sarah’s main concern?
             "C": 'Watching videos on her phone.',
             "D": 'Taking photos with her phone.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -372,7 +372,7 @@ What happened to Kevin?
             "C": 'He got a new car.',
             "D": 'He walked to work.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -388,7 +388,7 @@ Why couldn’t Lucy buy the items?
             "C": 'She didn’t find what she wanted.',
             "D": 'She decided not to buy anything.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'B'
     },
     {
@@ -404,7 +404,7 @@ Why didn’t James watch the soccer game?
             "C": 'The game was canceled due to bad weather.',
             "D": 'He forgot about the match.'
         },
-        "categoria": 'Compreensão de texto',
+        "categoria": 'Compreensao de texto',
         "correta": 'C'
     },
    {
@@ -415,7 +415,7 @@ Why didn’t James watch the soccer game?
             "C": 'Excited',
             "D": 'Confident'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -426,7 +426,7 @@ Why didn’t James watch the soccer game?
             "C": 'Small',
             "D": 'Partial'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -437,7 +437,7 @@ Why didn’t James watch the soccer game?
             "C": 'Sustain',
             "D": 'Acquire'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -448,7 +448,7 @@ Why didn’t James watch the soccer game?
             "C": 'Logic',
             "D": 'Logics'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'A'
     },
     {
@@ -459,7 +459,7 @@ Why didn’t James watch the soccer game?
             "C": 'Limited',
             "D": 'Infrequent'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'A'
     },
     {
@@ -470,7 +470,7 @@ Why didn’t James watch the soccer game?
             "C": 'Quick and lazy',
             "D": 'Boring'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'A'
     },
     {
@@ -481,7 +481,7 @@ Why didn’t James watch the soccer game?
             "C": 'Worsen',
             "D": 'Expand'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -492,7 +492,7 @@ Why didn’t James watch the soccer game?
             "C": 'Depressed',
             "D": 'Angry'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'A'
     },
     {
@@ -503,7 +503,7 @@ Why didn’t James watch the soccer game?
             "C": 'Obvious',
             "D": 'Simple'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -514,7 +514,7 @@ Why didn’t James watch the soccer game?
             "C": 'Complicated',
             "D": 'Ancient'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -525,7 +525,7 @@ Why didn’t James watch the soccer game?
             "C": 'Boring',
             "D": 'Short'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -536,7 +536,7 @@ Why didn’t James watch the soccer game?
             "C": 'The teacher complained my work.',
             "D": 'The teacher comply my work.'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -547,7 +547,7 @@ Why didn’t James watch the soccer game?
             "C": 'Imaginary',
             "D": 'Theoretical'
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'A'
     },
     {
@@ -558,7 +558,7 @@ Why didn’t James watch the soccer game?
             "C": 'To clarify',
             "D": 'To eliminate',
         },
-        "categoria": 'Vocabulário',
+        "categoria": 'Vocabulario',
         "correta": 'B'
     },
     {
@@ -589,7 +589,8 @@ for pergunta in lista_perguntas:
 
 df = pd.DataFrame(perguntas_pandas)
 
-df.to_csv("perguntas.csv")
 
-print(len(lista_perguntas))
+caminho_csv = os.path.join("dados", "perguntas.csv")
+
+df.to_csv(caminho_csv)
 
